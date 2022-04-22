@@ -12,7 +12,7 @@ window.addEventListener('keydown', e => {
     audio.play();
     key.classList.add("playing");
     
-    // we can also use this code to undo the animation but the other is not dependent on transition time
+    // removing the animation
     setTimeout(() => {
         key.classList.remove("playing");
     }, 70);
