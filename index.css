@@ -1,0 +1,57 @@
+body{
+    /* Background image and resizing*/
+    background-image: url(images/background.jpg);
+
+    /* Positioning picture in center and full size */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.body{
+    /* displaying in a line */
+    display: inline-flex;
+    
+    /* Horizontal Alignment */
+    position:absolute;
+    top: 40%;
+}
+
+
+kbd{
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    color:aliceblue;
+}
+
+.sound{
+    font-family: 'Courier New', Courier, monospace;
+    color:yellow;
+}
+
+.key{
+    /* alligning the button properly */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    /* creating gaps between keys */
+    margin: 30px;
+
+    /* Border */
+    border: 3px solid black;
+
+    width: 70px;
+    height: 60px;
+    background-color: rgb(23,22,23, 0.5);
+
+    transition: all 0.07s;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color:  #ffc600;
+    box-shadow: 0px 0px 10px #ffc600;
+}
