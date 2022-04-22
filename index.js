@@ -18,6 +18,7 @@ window.addEventListener('keydown', e => {
     }, 70);
 });
 
+//this code can also be used for removing animation but leads to a bug
 //getting all the keys, for each key we check for transition end
 // const keys = document.querySelectorAll(".key");
 // keys.forEach(key => key.addEventListener('transitionend', e => {
